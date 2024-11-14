@@ -10,7 +10,7 @@ codeunit 50002 Controller
 
     end;
 
-    procedure ThirdProcedure_Handle()
+    procedure ThirdProcedure_Control()
     begin
 
     end;
