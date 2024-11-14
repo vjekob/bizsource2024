@@ -10,6 +10,7 @@ codeunit 50000 Demo
     begin
         Customer."No." := No;
         Customer.Name := Name;
+        Customer."Customer Posting Group" := 'DUMMYGRP';
         Customer.Insert(false);
     end;
 }
