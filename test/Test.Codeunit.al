@@ -18,7 +18,7 @@ codeunit 60001 "Test - Demo"
         Customer: Record Customer;
     begin
         // [WHEN] Invoking CreateCustomer
-        Demo.CreateCustomer();
+        Demo.CreateCustomer('DUMMY', 'Dummy Customer');
 
         // [THEN] Customer is created
         Customer.Get('DUMMY');
